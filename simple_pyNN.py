@@ -19,7 +19,7 @@ import bluepyopt.ephys as ephys
 import logging
 logging.basicConfig(filename='simple_pyNN.log', filemode='w', level=logging.DEBUG)
 
-PLOT_FIGURES = True
+PLOT_FIGURES = False
 
 
 class PyNNModel(object):
